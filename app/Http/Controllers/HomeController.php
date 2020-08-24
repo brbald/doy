@@ -13,7 +13,6 @@ class HomeController extends Controller
 
         return view('studentrecords',['students' => $students]);
 
-        //return view('studentrecords');
 
     }
 
